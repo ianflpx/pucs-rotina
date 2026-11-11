@@ -1,0 +1,8 @@
+node_modules
+dist
+.env.local
+.vercel
+import/
+scripts/*.cjs
+.DS_Store
+tsconfig.tsbuildinfo

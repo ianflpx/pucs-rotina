@@ -1,0 +1,31 @@
+{
+  "name": "pucs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test:workout": "node scripts/test-workout.mjs && node scripts/test-rest.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.45.4",
+    "canvas-confetti": "1.9.3",
+    "framer-motion": "11.11.17",
+    "lucide-react": "0.460.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.0",
+    "zustand": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "1.6.4",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.3",
+    "fake-indexeddb": "^6.2.6",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
